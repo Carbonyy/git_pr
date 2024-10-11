@@ -16,3 +16,4 @@ def GetActionsOnDay(day: str):
 todoList = dict()
 AddNewAction('1', "побегать")
 GetActionsOnDay('1')
+GetAllActions()
