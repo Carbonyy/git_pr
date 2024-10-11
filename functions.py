@@ -8,7 +8,10 @@ def GetAllActions():
     pass
 
 def GetActionsOnDay(day: int):
-    pass
+    for i in range(todoList.keys()):
+        print(todoList.get(day))
+
+
 
 
 
