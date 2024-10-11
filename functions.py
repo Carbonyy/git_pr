@@ -5,7 +5,9 @@ def AddNewAction(day: int, action):
     todoList[day] = action
 
 def GetAllActions():
-    pass
+    for i in range(todoList.keys()):
+        print(todoList.get(i))
+        print('\n')
 
 def GetActionsOnDay(day: int):
     for i in range(todoList.keys()):
